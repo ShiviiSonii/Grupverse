@@ -1,0 +1,27 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Define the grid layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Two columns with 1:2 ratio */
+    gap: 20px;
+    width: 100%; /* Adjust the gap between columns */
+  }
+  
+  
+  .center-column {
+    background-color: #ffffff; /* Add a background color to the center column */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .right-column {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }  
+  

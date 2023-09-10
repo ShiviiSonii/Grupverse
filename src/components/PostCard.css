@@ -1,0 +1,74 @@
+
+
+.post-card {
+    background-color: #fff;
+    border: 0.016rem solid #dcdcdc;
+    border-radius: 1.25rem;
+    box-shadow: -0.3125rem -0.3125rem 0.3125rem #db7093;
+    height: auto;
+    margin-left: 128px;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .circle-images {
+    display: flex;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .text-para {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  
+  .circle-images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rectangle-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .icons {
+    padding-top: 10px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .icons button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .icons button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Additional styles for text elements */
+  
+  .post-card p {
+    margin: 0.5rem 0;
+  }
+  
+
+  .post-text {
+    text-align: left;
+    font-weight: bold;
+  }
